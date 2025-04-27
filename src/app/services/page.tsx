@@ -17,6 +17,12 @@ const services = [
     telegramLink: "https://t.me/kutaa_faaruu_jimma_jit",
   },
   {
+    icon: <HeartHandshake className="h-10 w-10 text-blue-600" />,
+    title: "Kutaa ogummaa",
+    description: "This department focuses on community service, outreach programs, and volunteering opportunities.",
+    telegramLink: "",
+  },
+  {
     icon: <Video className="h-10 w-10 text-blue-600" />,
     title: "Kutaa midiyaa",
     description: "Our media department handles all audio-visual needs, live streaming, and content creation for our community.",
