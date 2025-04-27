@@ -56,11 +56,16 @@ const formSchema = z.object({
 });
 
 const departments = [
+  "Freshman and Non-Institute Courses",
+  "pre-engineering",
   "Computer Science",
+  "Information Science",
   "Information Technology",
   "Software Engineering",
   "Electrical Engineering",
+  "Biomedical Engineering",
   "Mechanical Engineering",
+  "Chemical Engineering",
   "Civil Engineering",
   "Business Administration",
   "Economics",
@@ -76,7 +81,7 @@ const participationOptions = [
   { id: "kutaa-gochagarii", label: "Kutaa Gocha Gaarii" },
   { id: "kutaa-misomaa", label: "Kutaa Misoomaa" },
   { id: "kutaa-barumsaa", label: "Kutaa Barumsaa" },
-  { id: "kutaa-baachii", label: "Kutaa Ogummaa" },
+  { id: "kutaa-ogumma", label: "Kutaa Ogummaa" },
   { id: "kutaa-miseensaa", label: "Kutaa Miseensaa" },
   { id: "kutaa-to'annaa", label: "Kutaa To'annaa" },
   { id: "kutaa-qabeenyaa", label: "Kutaa Qabeenyaa" },
