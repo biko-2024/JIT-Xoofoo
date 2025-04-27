@@ -13,14 +13,14 @@ const services = [
   {
     icon: <Music className="h-10 w-10 text-blue-600" />,
     title: "Kutaa faaruu",
-    description: "Our music department organizes worship sessions and trains members in various musical instruments and vocals.",
+    description: "faaruu ni jallatta erga jalatte koottu gara telegrami keenyatti dabalami.",
     telegramLink: "https://t.me/kutaa_faaruu_jimma_jit",
   },
   {
     icon: <HeartHandshake className="h-10 w-10 text-blue-600" />,
     title: "Kutaa ogummaa",
-    description: "This department focuses on community service, outreach programs, and volunteering opportunities.",
-    telegramLink: "",
+    description: "kutaa ogumman iddo namoonni ogumma qaban basaniidha fkn walaloo, diraama, bacoo, fakki kaasuu kkf.",
+    telegramLink: "https://t.me/+gQgSy20mwnljYmY0",
   },
   {
     icon: <Video className="h-10 w-10 text-blue-600" />,
