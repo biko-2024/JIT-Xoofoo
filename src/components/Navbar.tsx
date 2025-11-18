@@ -9,6 +9,7 @@ import { Menu } from "lucide-react";
 const routes = [
   { href: "/", label: "Home" },
   { href: "/members", label: "Members" },
+  { href: "/profile", label: "Profile" },
   { href: "/services", label: "Services" },
   { href: "/history", label: "History" },
   { href: "/background", label: "Background" },
@@ -52,7 +53,11 @@ export function Navbar() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="pr-0">
-              <Link href="/" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
+              <Link
+                href="/"
+                className="flex items-center space-x-2"
+                onClick={() => setIsOpen(false)}
+              >
                 <span className="font-bold text-xl">JIT Xoofoo</span>
               </Link>
               <nav className="mt-6 flex flex-col space-y-4">
@@ -67,7 +72,9 @@ export function Navbar() {
                   </Link>
                 ))}
                 <Button asChild variant="outline" className="mt-4">
-                  <Link href="/login" onClick={() => setIsOpen(false)}>Login</Link>
+                  <Link href="/login" onClick={() => setIsOpen(false)}>
+                    Login
+                  </Link>
                 </Button>
               </nav>
             </SheetContent>
